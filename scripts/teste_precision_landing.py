@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+
+''' Teste de pouso preciso do drone por meio da detecção de um model Aruco no Gazebo.
+	
+    Código ainda em desenvolvimento!!'''
+
 from socket import IP_MULTICAST_LOOP
 import rospy
 import cv2
