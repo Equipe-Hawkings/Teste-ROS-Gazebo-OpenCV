@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+
+''' Teste de detecção de Aruco por meio da câmera do drone iris utilizado dentro do Gazebo.
+	Recolhe-se os frames da stream por meio de topics específicos do ROS. '''
+
+''' A stream é mostrada pela própria janela do OpenCV'''
+
 from __future__ import print_function
 import roslib
 roslib.load_manifest('testes_cv')
