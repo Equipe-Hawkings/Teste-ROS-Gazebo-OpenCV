@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+
+''' Detecção de Aruco por meio da câmera do drone iris utilizado dentro do Gazebo.
+	Recolhe-se os frames da stream por meio de topics específicos do ROS. '''
+
+''' Código por enquanto inutilizável'''
+
+
 from __future__ import print_function
 
 import roslib
