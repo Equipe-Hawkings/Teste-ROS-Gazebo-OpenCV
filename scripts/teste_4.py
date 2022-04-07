@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+
+''' Teste de detecção de Aruco por meio da câmera do drone iris utilizado dentro do Gazebo.
+	Recolhe-se os frames da stream por meio de topics específicos do ROS. '''
+
+''' A stream é mostrada pelo simulador RVIZ por meio do tópico /detected_markers'''
+
 import rospy
 import cv2
 from std_msgs.msg import String
